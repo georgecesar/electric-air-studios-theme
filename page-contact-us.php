@@ -36,13 +36,13 @@ if (isset($_POST)) {
 
   $to = "info@electricairstudios.com";
   $subject = "EAS Inquiry: " . $subject;
-  $headers = "From: inquires@electricairstudios.com" . "\r\n";
+  $headers = "From: info@electricairstudios.com" . "\r\n";
   $headers .= "Return-Path: " . $from . "\r\n";
   $headers .= "Reply-To: " . $from . "\r\n";
   $headers .= "MIME-Version: 1.0\r\n";
   $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
   $headers .= "X-Priority: 3\r\n";
   $headers .= "X-Mailer: PHP" . phpversion();
-  mail($to, $subject, $message, $headers);
+  wp_mail($to, $subject, $message, $headers);
 }
 ?>
