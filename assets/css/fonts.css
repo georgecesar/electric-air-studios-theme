@@ -1,0 +1,59 @@
+/* FONT: "Myriad Pro" */
+@import url("https://use.typekit.net/hfo0few.css");
+
+/* FONT: "Affogato" */
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('../webfont/Affogato-Black.eot');
+  src: url('../webfont/Affogato-Black.eot?#iefix'), format('embedded-opentype');
+  src: url('../webfont/Affogato-Black.woff'), format('woff');
+  src: url('../webfont/Affogato-Black.woff2'), format('woff2');
+  src: url('../webfont/Affogato-Black.ttf'), format('truetype');
+  src: url('../webfont/Affogato-Black.svg'), format('svg');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('../webfont/Affogato-Bold.eot');
+  src: url('../webfont/Affogato-Bold.eot?#iefix'), format('embedded-opentype');
+  src: url('../webfont/Affogato-Bold.woff'), format('woff');
+  src: url('../webfont/Affogato-Bold.woff2'), format('woff2');
+  src: url('../webfont/Affogato-Bold.ttf'), format('truetype');
+  src: url('../webfont/Affogato-Bold.svg'), format('svg');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('../webfont/Affogato-Medium.eot');
+  src: url('../webfont/Affogato-Medium.eot?#iefix'), format('embedded-opentype');
+  src: url('../webfont/Affogato-Medium.woff'), format('woff');
+  src: url('../webfont/Affogato-Medium.woff2'), format('woff2');
+  src: url('../webfont/Affogato-Medium.ttf'), format('truetype');
+  src: url('../webfont/Affogato-Medium.svg'), format('svg');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('../webfont/Affogato-Regular.eot');
+  src: url('../webfont/Affogato-Regular.eot?#iefix'), format('embedded-opentype');
+  src: url('../webfont/Affogato-Regular.woff'), format('woff');
+  src: url('../webfont/Affogato-Regular.woff2'), format('woff2');
+  src: url('../webfont/Affogato-Regular.ttf'), format('truetype');
+  src: url('../webfont/Affogato-Regular.svg'), format('svg');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('../webfont/Affogato-Light.eot');
+  src: url('../webfont/Affogato-Light.eot?#iefix'), format('embedded-opentype');
+  src: url('../webfont/Affogato-Light.woff'), format('woff');
+  src: url('../webfont/Affogato-Light.woff2'), format('woff2');
+  src: url('../webfont/Affogato-Light.ttf'), format('truetype');
+  src: url('../webfont/Affogato-Light.svg'), format('svg');
+  font-weight: 200;
+}

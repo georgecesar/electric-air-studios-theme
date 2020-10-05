@@ -1,0 +1,50 @@
+.footer-wrapper {
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: inherit;
+  padding: 1.5rem 0.75rem 2rem 0.75rem;
+  display: grid;
+  justify-items: start;
+  gap: 2rem;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p {
+  text-align: left !important;
+}
+footer h3 {
+  margin-top: 0 !important;
+}
+footer span {
+  font-size: 0.85rem;
+  align-self: end;
+  text-align: right;
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+footer span:hover {
+  opacity: 1;
+}
+footer .navigation ul {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+}
+footer .navigation ul li {
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+footer .navigation ul li:hover {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  .footer-wrapper {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

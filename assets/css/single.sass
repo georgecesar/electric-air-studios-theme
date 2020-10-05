@@ -1,0 +1,62 @@
+.single
+  article
+    gap: 2.5rem
+
+  h1
+    margin: 0
+
+  .date
+    opacity: 0.5
+
+  .date::before
+    content: "Recorded on "
+
+  .credits
+    .wp-block-group__inner-container
+      background-color: rgba(255, 255, 255, 0.1)
+      padding-bottom: .75rem
+      display: grid
+      grid-auto-flow: row
+      gap: .75rem
+
+      >ul
+        width: 100%
+        display: grid
+        gap: 1.5rem
+        grid-template-columns: repeat(auto-fit, minmax(128px, 1fr))
+
+    li
+      font-weight: 500
+      display: grid
+      grid-auto-flow: row
+      gap: .45rem
+      align-content: start
+
+      ul li
+        opacity: 0.5
+        font-size: 1rem
+        font-weight: 400
+
+.featured-image
+  width: 100%
+  height: 250px
+  background-size: cover
+  background-position: 50% 15%
+
+@media screen and(min-width: 769px)
+  .featured-image
+    margin-top: 2rem
+    width: 250px !important
+    height: 250px !important
+    border-radius: 50%
+
+  .credits li
+    text-align: center
+
+  .date, .title
+    text-align: center
+
+@media(prefers-color-scheme: light)
+  .single
+    .credits
+      background-color: rgba(0,0,0,0.1) !important

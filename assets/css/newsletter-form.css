@@ -1,0 +1,72 @@
+#mc_embed_signup form input {
+  color: inherit;
+  background: inherit;
+  font-weight: inherit;
+  font-size: 1rem;
+  outline: none;
+  font-family: inherit;
+  border: none;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+#mc_embed_signup form {
+  display: flex;
+  flex-flow: column;
+}
+
+footer #mc_embed_signup form {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+}
+footer #mc_embed_signup form input {
+  padding: 0;
+}
+footer #mc_embed_signup form input::placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+footer #mc_embed_signup form input:focus {
+  opacity: 1;
+}
+
+footer #mc_embed_signup input[type=submit], .mobile-menu-wrapper #mc_embed_signup input[type=submit] {
+  opacity: 1;
+  animation: glow 1s infinite alternate;
+}
+
+.mobile-menu-wrapper #mc_embed_signup input:not([type=submit]) {
+  display: none;
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mobile-menu-wrapper #mc_embed_signup {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-menu-wrapper #mc_embed_signup h3 {
+  display: none;
+}
+.mobile-menu-wrapper #mc_embed_signup form {
+  display: flex;
+  flex-flow: column;
+}
+.mobile-menu-wrapper #mc_embed_signup form input {
+  padding: 1rem 0.75rem;
+  width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  .mobile-menu-wrapper #mc_embed_signup {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+/*# sourceMappingURL=newsletter-form.css.map */
