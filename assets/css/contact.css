@@ -1,12 +1,8 @@
 .container.contact article a {
   text-decoration: underline;
 }
-.container.contact article .links {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+.container.contact iframe {
+  width: 100%;
 }
 .container.contact .form-wrapper {
   width: 100%;
@@ -72,9 +68,20 @@
     font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 789px) {
-  form.contact-us, .links-wrapper {
+@media screen and (min-width: 769px) {
+  .container.contact article {
     max-width: 60ch !important;
+  }
+  .container.contact article > * {
+    padding: 0 !important;
+  }
+  .container.contact iframe {
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container.contact iframe {
+    max-width: 1280px;
   }
 }
 

@@ -3,7 +3,7 @@
     <nav>
       <div class="navigation">
         <h3>Menu</h3>
-        <?php wp_nav_menu('nav-menu'); ?>
+        <?php wp_nav_menu(array('theme_location' => 'footer-menu')) ?>
       </div>
     </nav>
     <?php get_template_part("template-parts/newsletter-form"); ?>

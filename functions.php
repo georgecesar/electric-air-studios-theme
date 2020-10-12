@@ -25,7 +25,9 @@ function initialize()
   }
 
   register_nav_menus(array(
-    "nav-menu" => __("Navigation Menu"),
+    "header-menu" => __("Header Menu"),
+    "footer-menu" => __("Footer Menu"),
+    "side-menu" => __("Side Menu"),
   ));
 
   add_theme_support("post-thumbnails");

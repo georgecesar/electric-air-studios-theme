@@ -7,6 +7,7 @@
     </article>
     <article>
       <div class="form-wrapper">
+        <h1>Leave us a message</h1>
         <form class="contact-us" method="POST" name="form">
           <input type="text" name="first-name" placeholder="First">
           <input type="text" name="last-name" placeholder="Last">

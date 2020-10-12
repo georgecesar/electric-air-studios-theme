@@ -10,8 +10,11 @@
 .single .date::before {
   content: "Recorded on ";
 }
-.single .credits .wp-block-group__inner-container {
+.single .credits {
   background-color: rgba(255, 255, 255, 0.1);
+}
+.single .credits .wp-block-group__inner-container {
+  margin: 0 auto;
   padding-bottom: 0.75rem;
   display: grid;
   grid-auto-flow: row;
@@ -34,6 +37,10 @@
   opacity: 0.5;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.title-date {
+  width: 100%;
 }
 
 .featured-image {
@@ -62,6 +69,9 @@
 @media (prefers-color-scheme: light) {
   .single .credits {
     background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .single .credits > div {
+    max-width: 1280px;
   }
 }
 

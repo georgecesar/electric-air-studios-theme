@@ -12,7 +12,7 @@
 <div class="header-wrapper">
   <header>
 
-    <?php wp_nav_menu('nav-menu') ?>
+    <?php wp_nav_menu(array('theme_location' => 'header-menu')) ?>
 
     <a class='header-logo' href="<?php echo get_home_url(); ?>">
       <svg id="header-logo-horizontal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1419.73 494.82">

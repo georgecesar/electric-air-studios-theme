@@ -16,10 +16,14 @@
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   text-align: center;
   align-items: center;
+  overflow: hidden;
 }
 .streaming .card-container .card > * {
   margin: 0;
   padding: 0;
+}
+.streaming .card-container .card > *:not(.card-background) {
+  position: relative;
 }
 .streaming .card-container .card h2 {
   margin: 0.75rem 0;
@@ -33,6 +37,25 @@
   min-height: 200px;
   background-size: cover;
   background-position: top;
+}
+.streaming .card-container .card .card-background {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: saturate(5) blur(20px);
+  opacity: 0.5;
+}
+.streaming .card-container .card .card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 @media (prefers-color-scheme: light) {

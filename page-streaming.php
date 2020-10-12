@@ -26,9 +26,10 @@
           <?php
           if ($q2->have_posts()) :
             while ($q2->have_posts()) : ?>
+              <?php
+              $q2->the_post(); ?>
               <div class="card">
-                <?php
-                $q2->the_post(); ?>
+                <div class="card-background" style="background-image: url(<?php the_post_thumbnail_url(); ?>)"></div>
                 <div class="card-image" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
                 </div>
                 <?php the_title('<h2>', '</h2>'); ?>
@@ -36,6 +37,7 @@
                   <a href="<?php the_permalink(); ?>" class="link-chevron">Watch episode<i class="fas fa-chevron-right"></i></a>
                   </a>
                 </p>
+                <a class="card-link" href="<?php the_permalink(); ?>"></a>
               </div>
           <?php
             endwhile;

@@ -1,12 +1,12 @@
 .header-wrapper {
-  z-index: 1;
+  z-index: 100;
   position: sticky;
   top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   transition: background 0.25s ease-in-out;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.5);
 }
 .header-wrapper:hover {
   background: rgba(0, 0, 0, 0.65);
@@ -49,13 +49,13 @@ header ul li {
 header .menu-icon {
   display: none;
 }
-header .menu-navigator-container a, header .menu-navigator-container i, header .social-icons a, header .social-icons i {
+header .menu-header-menu-container a, header .menu-header-menu-container i, header .social-icons a, header .social-icons i {
   transition: opacity 0.25s ease-in-out;
 }
-header .menu-navigator-container:hover a, header .menu-navigator-container:hover i, header .social-icons:hover a, header .social-icons:hover i {
+header .menu-header-menu-container:hover a, header .menu-header-menu-container:hover i, header .social-icons:hover a, header .social-icons:hover i {
   opacity: 0.5;
 }
-header .menu-navigator-container:hover a:hover, header .menu-navigator-container:hover i:hover, header .social-icons:hover a:hover, header .social-icons:hover i:hover {
+header .menu-header-menu-container:hover a:hover, header .menu-header-menu-container:hover i:hover, header .social-icons:hover a:hover, header .social-icons:hover i:hover {
   opacity: 1;
 }
 
@@ -73,7 +73,7 @@ header .menu-navigator-container:hover a:hover, header .menu-navigator-container
   header .header-logo {
     width: auto;
   }
-  header .menu-navigator-container, header .social-icons {
+  header .menu-header-menu-container, header .social-icons {
     display: none;
   }
   header .menu-icon {

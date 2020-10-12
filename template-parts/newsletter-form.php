@@ -1,9 +1,5 @@
 <div id="mc_embed_signup">
-  <h3>Newsletter</h3>
   <form action="https://electricairstudios.us10.list-manage.com/subscribe/post?u=091ca5a84eb89c22f4119cb58&amp;id=2eaa363d7b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <input placeholder="Email Address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-    <input placeholder="First Name" type="text" value="" name="FNAME" class="" id="mce-FNAME">
-    <input placeholder="Last Name" type="text" value="" name="LNAME" class="" id="mce-LNAME">
     <div id="mce-responses" class="clear">
       <div class="response" id="mce-error-response" style="display:none"></div>
       <div class="response" id="mce-success-response" style="display:none"></div>

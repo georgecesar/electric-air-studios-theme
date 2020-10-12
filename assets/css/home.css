@@ -1,5 +1,5 @@
 .home {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .home main {
   grid-template-rows: 1fr;
@@ -8,7 +8,7 @@
   grid-template-rows: 1fr;
 }
 .home main article .scroller-wrapper {
-  min-height: auto !important;
+  height: 100%;
 }
 
 /*# sourceMappingURL=home.css.map */

@@ -1,6 +1,6 @@
 <div class="mobile-menu-wrapper">
   <div class="mobile-menu-container">
-    <?php wp_nav_menu("nav-menu");
+    <?php wp_nav_menu(array('theme_location' => 'side-menu'));
     get_template_part("template-parts/newsletter-form");
     ?>
     <ul class="mobile-menu-social-icons">
