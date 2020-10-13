@@ -59,10 +59,10 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .streaming .card-container .card {
+  .streaming .card-container .card, .about .card-container .card {
     background-color: #eee;
   }
-  .streaming .card-container .card:hover {
+  .streaming .card-container .card:hover, .about .card-container .card:hover {
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   }
 }
