@@ -61,10 +61,6 @@
   .credits li {
     text-align: center;
   }
-
-  .date, .title {
-    text-align: center;
-  }
 }
 @media (prefers-color-scheme: light) {
   .single .credits {
