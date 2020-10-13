@@ -7,9 +7,9 @@ window.addEventListener("DOMContentLoaded", () => {
     x: "100%",
   });
 
-  gsap.set(".mobile-menu-wrapper", {
-    visibility: "hidden",
-  });
+  // gsap.set(".mobile-menu-wrapper", {
+  //   visibility: "hidden",
+  // });
 
   menuIcon.onclick = (e) => {
     mobileMenuContainer.classList.toggle("open");

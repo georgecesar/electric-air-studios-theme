@@ -94,5 +94,10 @@ header .menu-header-menu-container:hover a:hover, header .menu-header-menu-conta
     fill: black;
   }
 }
+@media screen and (min-width: 769px) {
+  .mobile-menu-wrapper {
+    display: none !important;
+  }
+}
 
 /*# sourceMappingURL=header.css.map */
