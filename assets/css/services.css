@@ -13,6 +13,7 @@
   grid-template-rows: 1fr;
 }
 .services article > ul {
+  width: 100%;
   position: relative;
   height: 100%;
   padding: 0 !important;
@@ -30,9 +31,6 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-.services article > ul > li > * {
-  width: 100%;
 }
 .services .footer-wrapper {
   margin: 0;
