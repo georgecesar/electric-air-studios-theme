@@ -98,6 +98,7 @@ body {
 }
 
 .container main {
+  z-index: 0;
   justify-self: center;
   width: 100%;
   display: grid;
