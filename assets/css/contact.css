@@ -55,7 +55,7 @@
 
 @media (prefers-color-scheme: light) {
   .container.contact .form-wrapper form.contact-us {
-    background: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
   }
   .container.contact .form-wrapper form.contact-us input, .container.contact .form-wrapper form.contact-us textarea {
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);

@@ -40,7 +40,10 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  box.onscroll = (e) => {
-    tl2.progress(box.scrollLeft / box.clientWidth / (items.length - 1));
+  document.body.onscroll = (e) => {
+    let controller =
+      document.body.scrollTop / document.body.clientHeight / (items.length - 1);
+    console.log(controller);
+    tl2.progress(controller);
   };
 });

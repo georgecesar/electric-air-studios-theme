@@ -9,6 +9,7 @@ function initialize()
     wp_enqueue_style("mobile-menu", get_template_directory_uri() . "/assets/css/mobile-menu.css", null, filemtime(get_template_directory() . "/assets/css/mobile-menu.css"));
     wp_enqueue_style("services", get_template_directory_uri() . "/assets/css/services.css", null, filemtime(get_template_directory() . "/assets/css/services.css"));
     wp_enqueue_style("streaming", get_template_directory_uri() . "/assets/css/streaming.css", null, filemtime(get_template_directory() . "/assets/css/streaming.css"));
+    wp_enqueue_style("studio", get_template_directory_uri() . "/assets/css/studio.css", null, filemtime(get_template_directory() . "/assets/css/studio.css"));
     wp_enqueue_style("footer", get_template_directory_uri() . "/assets/css/footer.css", null, filemtime(get_template_directory() . "/assets/css/footer.css"));
     wp_enqueue_style("home", get_template_directory_uri() . "/assets/css/home.css", null, filemtime(get_template_directory() . "/assets/css/home.css"));
     wp_enqueue_style("single", get_template_directory_uri() . "/assets/css/single.css", null, filemtime(get_template_directory() . "/assets/css/single.css"));
