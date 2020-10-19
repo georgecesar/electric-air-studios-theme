@@ -4,7 +4,7 @@ Author URI: https://georgecesar.com/
 Theme URI: https://github.com/georgecesar/electric-air-studios-theme
 GitHub Theme URI: https://github.com/georgecesar/electric-air-studios-theme
 Description: Electric Air Studios' custom theme.
-Version: 1.8.3
+Version: 1.8.4
 Requires at least: 5.0
 Tested up to: 5.4
 Requires PHP: 7.0
@@ -256,16 +256,5 @@ body {
 
   .container article .wp-block-group__inner-container {
     justify-items: center;
-  }
-
-  .container article .alt,
-  .container h1,
-  .container h2,
-  .container h3,
-  .container h4,
-  .container h5,
-  .container h6,
-  .container p {
-    max-width: 60ch;
   }
 }
