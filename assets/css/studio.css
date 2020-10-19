@@ -1,0 +1,9 @@
+.studio article .alt.links li {
+  transition: background-color 0.25s, color 0.25s;
+}
+.studio article .alt.links li:hover {
+  background-color: #0158d0 !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=studio.css.map */
