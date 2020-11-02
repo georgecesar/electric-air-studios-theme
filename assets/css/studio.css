@@ -1,9 +1,18 @@
-.studio article .alt.links li {
-  transition: background-color 0.25s, color 0.25s;
+.container.studio main article .logos .wp-block-group__inner-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 0.75rem;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 2rem;
 }
-.studio article .alt.links li:hover {
-  background-color: #0158d0 !important;
-  color: white !important;
+.container.studio main article .logos .wp-block-group__inner-container figure img {
+  width: auto;
+  height: auto;
+  max-height: 75px;
+  margin: 0;
+  filter: invert(1);
+  opacity: 0.75;
 }
 
 /*# sourceMappingURL=studio.css.map */

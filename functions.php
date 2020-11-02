@@ -38,6 +38,8 @@ function initialize()
 
   add_action("wp_enqueue_scripts", "enqueue_scripts");
   add_action("wp_enqueue_scripts", "enqueue_styles");
+
+  add_filter('get_image_tag_class', '__return_empty_string');
 }
 
 add_action("init", "initialize");
