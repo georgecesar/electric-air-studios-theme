@@ -1,3 +1,6 @@
+.container.studio main article .logos {
+  padding: 0 0.75rem;
+}
 .container.studio main article .logos .wp-block-group__inner-container {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
@@ -12,7 +15,16 @@
   max-height: 75px;
   margin: 0;
   filter: invert(1);
-  opacity: 0.75;
+  opacity: 0.5;
+}
+
+@media (prefers-color-scheme: light) {
+  .container.studio .logos .wp-block-group__inner-container {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  .container.studio .logos .wp-block-group__inner-container figure img {
+    filter: none !important;
+  }
 }
 
 /*# sourceMappingURL=studio.css.map */
