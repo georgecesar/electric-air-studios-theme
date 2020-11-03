@@ -51,18 +51,28 @@
 }
 
 @media screen and (min-width: 769px) {
-  .featured-image {
+  .single .featured-image {
     margin-top: 2rem;
     width: 250px !important;
     height: 250px !important;
     border-radius: 50%;
   }
-
-  .credits li {
+  .single .credits li {
     text-align: center;
+  }
+  .single .wp-block-group {
+    min-width: 100%;
+  }
+  .single .wp-block-embed__wrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
   }
 }
 @media (prefers-color-scheme: light) {
+  .single .wp-block-embed__wrapper {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
   .single .credits {
     background-color: rgba(0, 0, 0, 0.1) !important;
   }
