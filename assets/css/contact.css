@@ -1,5 +1,5 @@
-.container.contact article a {
-  text-decoration: underline;
+.container.contact article p {
+  width: 100%;
 }
 .container.contact iframe {
   width: 100%;
