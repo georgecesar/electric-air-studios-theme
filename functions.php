@@ -5,10 +5,12 @@ function initialize()
   {
     wp_enqueue_style("style", get_stylesheet_uri(), null, filemtime(get_template_directory() . "/style.css"));
     wp_enqueue_style("fonts", get_template_directory_uri() . "/assets/css/fonts.css", null, filemtime(get_template_directory() . "/assets/css/fonts.css"));
+    wp_enqueue_style("affogato", get_template_directory_uri() . "/assets/css/Affogato/affogato.css", null, filemtime(get_template_directory() . "/assets/css/Affogato/affogato.css"));
     wp_enqueue_style("header", get_template_directory_uri() . "/assets/css/header.css", null, filemtime(get_template_directory() . "/assets/css/header.css"));
     wp_enqueue_style("mobile-menu", get_template_directory_uri() . "/assets/css/mobile-menu.css", null, filemtime(get_template_directory() . "/assets/css/mobile-menu.css"));
     wp_enqueue_style("services", get_template_directory_uri() . "/assets/css/services.css", null, filemtime(get_template_directory() . "/assets/css/services.css"));
     wp_enqueue_style("streaming", get_template_directory_uri() . "/assets/css/streaming.css", null, filemtime(get_template_directory() . "/assets/css/streaming.css"));
+    wp_enqueue_style("collapsible", get_template_directory_uri() . "/assets/css/collapsible.css", null, filemtime(get_template_directory() . "/assets/css/collapsible.css"));
     wp_enqueue_style("studio", get_template_directory_uri() . "/assets/css/studio.css", null, filemtime(get_template_directory() . "/assets/css/studio.css"));
     wp_enqueue_style("footer", get_template_directory_uri() . "/assets/css/footer.css", null, filemtime(get_template_directory() . "/assets/css/footer.css"));
     wp_enqueue_style("home", get_template_directory_uri() . "/assets/css/home.css", null, filemtime(get_template_directory() . "/assets/css/home.css"));
@@ -23,12 +25,15 @@ function initialize()
     wp_enqueue_script("gsap", "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js");
     wp_enqueue_script("mobile-menu", get_template_directory_uri() . "/assets/js/mobile-menu.js", array("gsap"));
     wp_enqueue_script("services", get_template_directory_uri() . "/assets/js/services.js", array("gsap"), filemtime(get_template_directory() . "/assets/js/services.js"));
+    wp_enqueue_script("collapsible", get_template_directory_uri() . "/assets/js/collapsible.js", array("gsap"), filemtime(get_template_directory() . "/assets/js/collapsible.js"));
   }
 
   register_nav_menus(array(
     "header-menu" => __("Header Menu"),
+    "header-streaming-menu" => __("Header Streaming Menu"),
     "footer-menu" => __("Footer Menu"),
     "side-menu" => __("Side Menu"),
+    "side-streaming-menu" => __("Side Streaming Menu"),
   ));
 
   add_theme_support("post-thumbnails");

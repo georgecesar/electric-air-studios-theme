@@ -1,5 +1,6 @@
 <div class="container page">
-  <?php get_header(); ?>
+  <?php if ($post->post_parent == 61) get_header("streaming");
+  else get_header(); ?>
   <main>
     <?php
     if (have_posts()) :

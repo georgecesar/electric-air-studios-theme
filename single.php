@@ -1,5 +1,6 @@
 <div class="container single">
-  <?php get_header(); ?>
+  <?php if (in_category("Electric Air Live")) get_header("streaming");
+  else get_header(); ?>
   <main>
     <?php
     if (have_posts()) :

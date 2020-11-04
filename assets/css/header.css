@@ -49,13 +49,13 @@ header ul li {
 header .menu-icon {
   display: none;
 }
-header .menu-header-menu-container a, header .menu-header-menu-container i, header .social-icons a, header .social-icons i {
+header .menu-header-menu-container a, header .menu-header-menu-container i, header .menu-header-streaming-menu-container a, header .menu-header-streaming-menu-container i, header .social-icons a, header .social-icons i {
   transition: opacity 0.25s ease-in-out;
 }
-header .menu-header-menu-container:hover a, header .menu-header-menu-container:hover i, header .social-icons:hover a, header .social-icons:hover i {
+header .menu-header-menu-container:hover a, header .menu-header-menu-container:hover i, header .menu-header-streaming-menu-container:hover a, header .menu-header-streaming-menu-container:hover i, header .social-icons:hover a, header .social-icons:hover i {
   opacity: 0.5;
 }
-header .menu-header-menu-container:hover a:hover, header .menu-header-menu-container:hover i:hover, header .social-icons:hover a:hover, header .social-icons:hover i:hover {
+header .menu-header-menu-container:hover a:hover, header .menu-header-menu-container:hover i:hover, header .menu-header-streaming-menu-container:hover a:hover, header .menu-header-streaming-menu-container:hover i:hover, header .social-icons:hover a:hover, header .social-icons:hover i:hover {
   opacity: 1;
 }
 
@@ -73,7 +73,7 @@ header .menu-header-menu-container:hover a:hover, header .menu-header-menu-conta
   header .header-logo {
     width: auto;
   }
-  header .menu-header-menu-container, header .social-icons {
+  header .menu-header-menu-container, header .menu-header-streaming-menu-container, header .social-icons {
     display: none;
   }
   header .menu-icon {

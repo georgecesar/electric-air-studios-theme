@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Affogato';
+  src: url('affogato-regular-webfont.woff2') format('woff2'),
+    url('affogato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('affogato-medium-webfont.woff2') format('woff2'),
+    url('affogato-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('affogato-light-webfont.woff2') format('woff2'),
+    url('affogato-light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('affogato-bold-webfont.woff2') format('woff2'),
+    url('affogato-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Affogato';
+  src: url('affogato-black-webfont.woff2') format('woff2'),
+    url('affogato-black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+
+}

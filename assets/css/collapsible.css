@@ -1,0 +1,33 @@
+.collapsible {
+  grid-template-columns: auto !important;
+}
+.collapsible > li {
+  position: relative;
+}
+.collapsible > li:before {
+  position: absolute;
+  right: 0;
+  content: ">";
+  opacity: 0.5;
+  transform: translateX(-200%) rotate(0.25turn);
+  transition: opacity 0.25s ease-in-out;
+}
+.collapsible > li > ul > li {
+  max-height: 0;
+  overflow: scroll;
+  transition: max-height 0.25s ease-in-out;
+}
+.collapsible > li > ul > li:before {
+  content: "";
+  display: block;
+  height: 1rem;
+}
+.collapsible .open {
+  background-color: #0158d0 !important;
+  color: white !important;
+}
+.collapsible .open:before {
+  opacity: 0 !important;
+}
+
+/*# sourceMappingURL=collapsible.css.map */
