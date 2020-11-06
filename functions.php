@@ -15,6 +15,7 @@ function initialize()
     wp_enqueue_style("footer", get_template_directory_uri() . "/assets/css/footer.css", null, filemtime(get_template_directory() . "/assets/css/footer.css"));
     wp_enqueue_style("home", get_template_directory_uri() . "/assets/css/home.css", null, filemtime(get_template_directory() . "/assets/css/home.css"));
     wp_enqueue_style("single", get_template_directory_uri() . "/assets/css/single.css", null, filemtime(get_template_directory() . "/assets/css/single.css"));
+    wp_enqueue_style("blog", get_template_directory_uri() . "/assets/css/blog.css", null, filemtime(get_template_directory() . "/assets/css/blog.css"));
     wp_enqueue_style("newsletter-form", get_template_directory_uri() . "/assets/css/newsletter-form.css", null, filemtime(get_template_directory() . "/assets/css/newsletter-form.css"));
     wp_enqueue_style("contact", get_template_directory_uri() . "/assets/css/contact.css", null, filemtime(get_template_directory() . "/assets/css/contact.css"));
   }

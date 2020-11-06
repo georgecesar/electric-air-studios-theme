@@ -1,5 +1,5 @@
 .header-wrapper {
-  z-index: 100;
+  z-index: 1;
   position: sticky;
   top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -10,6 +10,9 @@
 }
 .header-wrapper:hover {
   background: rgba(0, 0, 0, 0.65);
+}
+.header-wrapper * {
+  user-select: none;
 }
 
 header {

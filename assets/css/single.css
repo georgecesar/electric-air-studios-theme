@@ -1,14 +1,8 @@
 .single article {
   gap: 2.5rem;
 }
-.single h1 {
-  margin: 0;
-}
 .single .date {
   opacity: 0.5;
-}
-.single .date::before {
-  content: "Recorded on ";
 }
 .single .credits {
   background-color: rgba(255, 255, 255, 0.1);

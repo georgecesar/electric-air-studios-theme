@@ -8,12 +8,14 @@
         <article>
           <?php $thumbnail = get_the_post_thumbnail_url(); ?>
           <!-- Featured image -->
-          <div class="featured-image" style="background-image: url(<?php echo $thumbnail; ?>);"></div>
+          <?php if (has_post_thumbnail()) : ?>
+            <div class="featured-image" style="background-image: url(<?php echo $thumbnail; ?>);"></div>
+          <?php endif; ?>
           <div class="title-date">
             <h1 class="title"><?php echo the_title(); ?></h1>
-            <?php if (in_category("Electric Air Live")) {
-              echo "<div class='date'>" . get_the_date() . "</div>";
-            } ?>
+            <span class="date">
+              <?php echo get_the_date(); ?>
+            </span>
           </div>
           <?php the_post(); ?>
           <?php the_content(); ?>
